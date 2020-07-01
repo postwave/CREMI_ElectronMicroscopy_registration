@@ -1,0 +1,8 @@
+01/07/2020
+
+volumes --> images(and annotated  images?)
+annotations --> discrete values(maybe class_id)
+
+* I think I'll only need to handle /volumes/raw --> original images
+
+* Use $(python -m torch.utils.bottleneck simple_autoencoder.py) to profile the code
