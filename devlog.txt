@@ -11,3 +11,13 @@ annotations --> discrete values(maybe class_id)
 
 Using half precision + ADAM, one could set eps=1e-4, since default eps for ADAM is 1e-8, too small for half.
 Add conv and deconv calculator in helper.py
+
+(UNSOLVED)*** How is conv2d+upsample vs. conv2dTranspose? ***
+
+05/07/2020
+debug the network: dimensions, dtypes.
+
+06/07/2020
+networking is working.
+
+If Forward/Backward pass size is too huge, check shape of the tensors to see if you set the conv layer wrong.
