@@ -21,3 +21,7 @@ debug the network: dimensions, dtypes.
 networking is working.
 
 If Forward/Backward pass size is too huge, check shape of the tensors to see if you set the conv layer wrong.
+
+08/07/2020
+autoencoder working.
+autoencoder's output start to make sense
